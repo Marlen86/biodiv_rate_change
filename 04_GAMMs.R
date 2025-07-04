@@ -112,7 +112,6 @@ beta.space <- split(beta.space, list(beta.space$beta.index, beta.space$Ecor_Lev1
 lulc_scen <- "A1B"
 resoln <- c("12_5", "25", "50")
 ecoregion <- c(unique(perc_ecor$Ecor_Lev1_name))
-setwd("~/Desktop/Plos_ONE/Revisions_R1/R_Scrpits_to_share")
 cor_data <- data.frame()
 variables <- data.frame (predictor = c('Intercept','PPTmean May-July','Tmax May-July','Tmin May-July','Barren',
               'Crops Pasture','Forests','Grassland Shrubland','Urban Developed','Wetlands', 
